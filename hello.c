@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
-printf("Hello, Sookmyung Electronics!\n");
-   return 0;
+int main(void)
+{
+    printf("10+20 = %d\n", 10+20);
+    return 0;
 }
