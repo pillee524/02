@@ -2,6 +2,10 @@
 
 int main(void)
 {
-    printf("10+20 = %d\n", 10+20);
+    int a, b;
+    a = 10;
+    b = 20;
+
+    printf("%d + %d = %d\n", a, b, a+b);
     return 0;
 }
